@@ -1,0 +1,63 @@
+logger:
+  baud_rate: 0
+
+uart:
+  baud_rate: 9600
+  tx_pin: GPIO01
+  rx_pin: GPIO03
+  parity: EVEN
+  stop_bits: 1
+
+modbus_controller:
+- address: 0x1
+
+sensor:
+  ###########################
+  # T.One AIR & T.One AquaAIR
+  - platform: modbus_controller
+    name: "Regulator software version"
+    register_type: read
+    address: 0x0001
+    value_type: U_WORD
+  - platform: modbus_controller
+    name: "HCI identifier"
+    register_type: read
+    address: 0x000E
+    value_type: U_DWORD
+  - platform: modbus_controller
+    name: "Current action"
+    register_type: read
+    address: 0x0064
+    value_type: U_WORD
+  - platform: modbus_controller
+    name: "Main room temperature"
+    register_type: read
+    address: 0x0078
+    value_type: S_WORD
+    unit_of_measurement: "°C"
+    accuracy_decimals: 1
+    filters:
+      - multiply: 0.01
+  # Not sure this one works, because it's uint8_t according to the doc
+  # - platform: modbus_controller
+  #   name: "Filter needs replacement"
+  #   register_type: read
+  #   address: 0x0082
+  #   value_type: U_WORD
+  ###############
+  # T.One AquaAIR
+  - platform: modbus_controller
+    name: "Remaining volume of hot water"
+    register_type: read
+    address: 0x006E
+    value_type: U_WORD
+    unit_of_measurement: "L"
+  - platform: modbus_controller
+    name: "Current hot water temperature"
+    register_type: read
+    address: 0x0070
+    value_type: S_WORD
+    unit_of_measurement: "°C"
+    accuracy_decimals: 1
+    filters:
+      - multiply: 0.01
