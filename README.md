@@ -1,4 +1,6 @@
-# ESPHome controller for Aldes T.One® AIR / AquaAIR
+# ESPHome gateway for Aldes T.One® AIR / AquaAIR
+
+**WARNING: for now this is all 100% theoritical and 0% tested. Be sure to know what you're doing!***
 
 ## Hardware
 
