@@ -2,7 +2,7 @@
 
 **WARNING: for now this is all 100% theoritical and 0% tested. Be sure to know what you're doing!**
 
-**WARNING: there might be a R120 between A et B, still TBD**
+**WARNING: there might be a R120 to add between A et B, still TBD**
 
 ## Hardware
 
