@@ -8,6 +8,8 @@
 + RS485/TTL converter ([AliExpress](https://fr.aliexpress.com/item/1005006340391490.html))
 + 12V to 5V buck converter ([AliExpress](https://fr.aliexpress.com/item/1005006486270630.html))
 
+![esphome-aldes-tone](esphome-aldes-tone.png)
+
 ### Wiring the controller
 
 + D1 mini TX pin (GPIO01) => RS485/TTL converter RXD pin
