@@ -31,7 +31,7 @@
 
 This first and most simple implementation uses ESPHome [Modbus components](https://esphome.io/components/modbus).
 
-See [aldes-tone.yaml](aldes-tone.yaml)
+See [esphome-aldes-tone.yaml](esphome-aldes-tone.yaml)
 
 ### Mid-term goal
 
