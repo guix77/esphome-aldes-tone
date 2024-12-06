@@ -21,7 +21,15 @@ Dans cette configuration de base on alimente l'ESP32 par son port USB en le bran
 + PCB (récupérer le [fichier Gerber](gerber-v1.0.zip) et le faire fabriquer sur un site comme JLCPCB.com)
 + D1 mini ESP32 ([AliExpress](https://fr.aliexpress.com/item/1005005972627549.html))
 + Convertisseur RS485/TTL ([AliExpress](https://fr.aliexpress.com/item/1005006340391490.html))
++ Convertisseur de niveau logique bidirectionnel 5V <=> 3.3V ([AliExpress](https://fr.aliexpress.com/item/1005006068381598.html))
 + Terminal 4 bornes ([AliExpress](https://fr.aliexpress.com/item/32828459901.html))
+
+Connectique :
+
++ Headers femelle doubles (2) pour l'ESP32 ([AliExpress](https://fr.aliexpress.com/item/32747224548.html)), mais vous pouvez aussi le souder à demeure juste avec des headers mâles
++ Headers femelle simples pour éventuellement surélever les autres circuits ([AliExpress](https://fr.aliexpress.com/item/32854239374.html))
++ Headers mâles ([AliExpress](https://fr.aliexpress.com/item/32973181162.html))
++ Pince à sertir et embouts ([AliExpress](https://fr.aliexpress.com/item/32831768783.html))
 
 ### Amélioration 1 : alimentation par le Modbus
 
@@ -35,6 +43,7 @@ Avec ces ajouts, on peut savoir si les bouches de diffusion (4 maximum avec ce P
 
 + Convertisseur numérique de niveaux logiques 12V => 3.3V à 4 voies ([AliExpress](https://fr.aliexpress.com/item/1005003772569293.html))
 + Terminal 2 bornes * 4 ([AliExpress](https://fr.aliexpress.com/item/32828459901.html))
++ Embouts doubles ([AliExpress](https://fr.aliexpress.com/item/1005004846852618.html))
 
 Les terminaux K sont à relier aux terminaux correspondants sur la carte mère de la PAC, où sont déjà branchés les câbles menant aux bouches. Attention, la polarité n'est pas importante pour les vérins des bouches selon la documentation officielle, mais elle est importante ici. Assurez-vous d'obtenir +12V au niveau du terminal quand la bouche est ouverte, et pas -12V !
 
