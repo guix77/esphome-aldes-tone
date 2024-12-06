@@ -55,11 +55,9 @@ Les condensateurs U6 et U7 ne sont pas à mettre.
 
 ## PCB
 
-![pcb-front](pcb-front.png)
+![pcb](pcb.png)
 
 Les condensateurs C1 et C2 ne sont pas à mettre.
-
-![pcb-back](pcb-back.png)
 
 ## Photo
 
