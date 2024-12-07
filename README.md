@@ -97,7 +97,7 @@ binary_sensor:
     device_class: opening
     icon: "mdi:hvac"
     pin:
-      number: GPIO36
+      number: GPIO34
       mode: INPUT
     filters:
       - delayed_on: 100ms
@@ -107,7 +107,7 @@ binary_sensor:
     device_class: opening
     icon: "mdi:hvac"
     pin:
-      number: GPIO39
+      number: GPIO35
       mode: INPUT
     filters:
       - delayed_on: 100ms
@@ -117,7 +117,7 @@ binary_sensor:
     device_class: opening
     icon: "mdi:hvac"
     pin:
-      number: GPIO35
+      number: GPIO36
       mode: INPUT
     filters:
       - delayed_on: 100ms
