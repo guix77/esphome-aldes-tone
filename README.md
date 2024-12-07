@@ -26,10 +26,10 @@ Dans cette configuration de base on alimente l'ESP32 par son port USB en le bran
 
 Connectique :
 
-+ Headers femelle doubles (2) pour l'ESP32 ([AliExpress](https://fr.aliexpress.com/item/32747224548.html)), mais vous pouvez aussi le souder à demeure juste avec des headers mâles
-+ Headers femelle simples pour éventuellement surélever les autres circuits ([AliExpress](https://fr.aliexpress.com/item/32854239374.html))
 + Headers mâles ([AliExpress](https://fr.aliexpress.com/item/32973181162.html))
 + Pince à sertir et embouts ([AliExpress](https://fr.aliexpress.com/item/32831768783.html))
++ Facultatif : headers femelle doubles (2) pour l'ESP32 ([AliExpress](https://fr.aliexpress.com/item/32747224548.html))
++ Falcutatif : headers femelle simples pour les autres circuits ([AliExpress](https://fr.aliexpress.com/item/32854239374.html))
 
 ### Amélioration 1 : alimentation par le Modbus
 
