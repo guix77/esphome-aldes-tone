@@ -124,7 +124,7 @@ binary_sensor:
       - delayed_on: 100ms
       - delayed_off: 50000ms
   - platform: gpio # Avec amélioration 2 et bouche K3
-    name: "Bouche 3"
+    name: "Bouche K3"
     device_class: opening
     icon: "mdi:hvac"
     pin:
